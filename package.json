@@ -1,0 +1,22 @@
+{
+  "name": "vaccine-tracker",
+  "version": "1.0.0",
+  "description": "A nodejs script to check vaccine slots",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bikram Bhattacharya",
+  "license": "MIT",
+  "engines": {
+    "node": "8.17.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-cron": "^3.0.0",
+    "twilio": "^3.62.0"
+  }
+}
